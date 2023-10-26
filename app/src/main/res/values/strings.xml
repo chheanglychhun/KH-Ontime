@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KH-Ontime</string>
+    <!-- Main Menu -->
+
+    <string name="home">Home</string>
+    <string name="market">Market</string>
+    <string name="menu">Menu</string>
+    <string name="inbox">Inbox</string>
+</resources>
