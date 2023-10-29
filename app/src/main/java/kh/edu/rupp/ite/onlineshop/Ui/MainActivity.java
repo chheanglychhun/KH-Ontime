@@ -1,4 +1,4 @@
-package kh.edu.rupp.ite.onlineshop;
+package kh.edu.rupp.ite.onlineshop.Ui;
 
 import androidx.activity.result.ActivityResultCaller;
 import androidx.annotation.NonNull;

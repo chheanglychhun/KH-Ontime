@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import kh.edu.rupp.ite.onlineshop.Ui.HomeFragment;
+import kh.edu.rupp.ite.onlineshop.Ui.InboxFragment;
+import kh.edu.rupp.ite.onlineshop.Ui.MarketFragment;
+import kh.edu.rupp.ite.onlineshop.Ui.MenuFragment;
 import kh.edu.rupp.ite.onlineshop.databinding.ActivityMainBinding;
 
 public class HomeActivity extends AppCompatActivity {
@@ -24,7 +28,18 @@ public class HomeActivity extends AppCompatActivity {
         // Setup Listeners
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
-
+            if (item.getItemId() == R.id.menuHome){
+                showFragment(new HomeFragment());
+            }
+            if (item.getItemId() == R.id.menuMarket){
+                showFragment(new MarketFragment());
+            }
+            if (item.getItemId() == R.id.menuInbox){
+                showFragment(new InboxFragment());
+            }
+            if (item.getItemId() == R.id.menuMune){
+                showFragment(new MenuFragment());
+            }
             return true;
         });
 
