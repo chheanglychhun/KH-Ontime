@@ -6,15 +6,15 @@
         android:icon="@drawable/ic_home"
         android:title="@string/home"/>
     <item
-        android:id="@+id/menuMarket"
-        android:icon="@drawable/ic_market"
-        android:title="@string/market"/>
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"/>
     <item
         android:id="@+id/menuInbox"
         android:icon="@drawable/ic_inbox"
         android:title="@string/inbox"/>
     <item
-        android:id="@+id/menuMune"
-        android:icon="@drawable/ic_more"
-        android:title="@string/menu"/>
+        android:id="@+id/menuSetting"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/setting"/>
 </menu>

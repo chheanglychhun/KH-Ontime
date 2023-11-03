@@ -3,7 +3,7 @@
     <!-- Main Menu -->
 
     <string name="home">Home</string>
-    <string name="market">Market</string>
-    <string name="menu">Menu</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
     <string name="inbox">Inbox</string>
 </resources>

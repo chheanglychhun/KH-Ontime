@@ -1,4 +1,4 @@
-package kh.edu.rupp.ite.onlineshop.Ui;
+package kh.edu.rupp.ite.onlineshop.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,19 +9,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import kh.edu.rupp.ite.onlineshop.databinding.FragmentInboxBinding;
-import kh.edu.rupp.ite.onlineshop.databinding.FragmentMenuBinding;
+import kh.edu.rupp.ite.onlineshop.databinding.FragmentHomeBinding;
 
-public class MenuFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    private FragmentMenuBinding binding;
+    private FragmentHomeBinding binding;
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        binding = FragmentMenuBinding .inflate(inflater,container,false);
+        binding = FragmentHomeBinding.inflate(inflater,container,false);
         return binding.getRoot();
 
     }

@@ -1,4 +1,4 @@
-package kh.edu.rupp.ite.onlineshop;
+package kh.edu.rupp.ite.onlineshop.activity;
 
 import android.os.Bundle;
 
@@ -8,10 +8,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import kh.edu.rupp.ite.onlineshop.Ui.HomeFragment;
-import kh.edu.rupp.ite.onlineshop.Ui.InboxFragment;
-import kh.edu.rupp.ite.onlineshop.Ui.MarketFragment;
-import kh.edu.rupp.ite.onlineshop.Ui.MenuFragment;
+import kh.edu.rupp.ite.onlineshop.fragment.HomeFragment;
+import kh.edu.rupp.ite.onlineshop.fragment.InboxFragment;
+import kh.edu.rupp.ite.onlineshop.fragment.SearchFragment;
+import kh.edu.rupp.ite.onlineshop.fragment.SettingFragment;
+import kh.edu.rupp.ite.onlineshop.R;
 import kh.edu.rupp.ite.onlineshop.databinding.ActivityMainBinding;
 
 public class HomeActivity extends AppCompatActivity {
@@ -31,14 +32,14 @@ public class HomeActivity extends AppCompatActivity {
             if (item.getItemId() == R.id.menuHome){
                 showFragment(new HomeFragment());
             }
-            if (item.getItemId() == R.id.menuMarket){
-                showFragment(new MarketFragment());
+            if (item.getItemId() == R.id.menuSearch){
+                showFragment(new SearchFragment());
             }
             if (item.getItemId() == R.id.menuInbox){
                 showFragment(new InboxFragment());
             }
-            if (item.getItemId() == R.id.menuMune){
-                showFragment(new MenuFragment());
+            if (item.getItemId() == R.id.menuSetting){
+                showFragment(new SettingFragment());
             }
             return true;
         });
